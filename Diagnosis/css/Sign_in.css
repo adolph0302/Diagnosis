@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+::-webkit-input-placeholder { /* WebKit browsers */ 
+color: #878787; 
+} 
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+color: #878787; 
+} 
+::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+color: #878787; 
+} 
+:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+color: #878787; 
+} 
+body,html{
+	width: 100%;
+	height: 100%;
+	background: url(../images/bj.jpg) no-repeat;
+	background-repeat: no-repeat;
+	background-size:100%;
+	position: relative;
+}
+/*左边区域*/
+#body_left{
+	width:30%;
+	height: 100%;
+	display: flex;
+	float: left;
+	background:rgba(0,0,0,0.5);
+}
+.logo{
+	width: 100%;
+	height: 200px;
+	margin-top: -100px;
+	position: relative;
+	top: 50%;
+}
+.sign{
+	width: 100%;
+	height: 100px;
+	background:white;
+	text-align: center;
+}
+.title{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+.sign img{
+	height: 100%;
+}
+.title img{
+	height: 80%;
+}
+.logo>div{
+	width: 100%;
+	height:100px;
+	line-height: 100px;
+	text-align: center;
+}
+#body_right{
+	width:70%;
+	height: 100%;
+	display: flex;
+	float: left;
+	position: relative;
+}
+.sign_in{
+	width: 400px;
+	height: 300px;
+	border-radius: 10px;
+	margin-top: -150px;
+	margin-left: -200px;
+	position: relative;
+	top: 50%;left: 50%;
+	background: white;
+}
+.sign_in_title{
+	width: 90%;
+	margin-left: 5%;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #737272;
+}
+.sign_in_input{
+	width: 80%;
+	margin-left: 10%;
+	height: 260px;
+	text-align: center;
+	margin-top: 10px;
+}
+.sign_in_input title{
+	display: inline-block;
+	width: 70px;
+	color: #000000;
+}
+.sign_in_input input{
+	width: 70%;
+	height: 30px;
+	background: none;
+	outline: none;
+	border: 1px solid #ababab;
+}
+.user,.Password{
+	margin-top: 35px;
+}
+.click a{
+	color: white;
+}
+.click button{
+	width: 100%;
+	height: 40px;
+	background: #00b5f8;
+	border:none;
+	border-radius: 5px;
+	margin-top: 30px;
+	outline: none;
+	cursor: pointer;
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+}
+.forget a{
+	color: #d72020;
+	text-decoration: underline;
+	float: right;
+	margin-top: 20px;
+	font-size: 14px;
+	cursor: pointer;
+}
+.copyrights{
+	position: absolute;
+	bottom: -100px;right: -100px;	
+}
+.copyrights a{
+	color: white;
+	font-size: 14px;
+}

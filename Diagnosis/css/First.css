@@ -1,0 +1,256 @@
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+#body {
+	width: 960px;
+	height: 470px;
+	background: white;
+	color: #000000;
+}
+
+.body_title {
+	width: 100%;
+	height: 25px;
+	border-bottom: 1px solid #E2E2E2;
+}
+
+.body_content {
+	overflow: auto;
+	width: 100%;
+	height: 420px;
+}
+
+.body_title_left,
+.body_title_right {
+	width: 50%;
+	height: 25px;
+	line-height: 25px;
+	position: relative;
+}
+.body_title_right div,input,select{
+	float: left;
+	position: relative;
+	top: 1px;
+}
+.xyj {
+	width: 80px;
+	height: 21px;
+	line-height: 21px;
+	font-size: 12px;
+	text-align: center;
+	color: white;
+	margin-left: 15px;
+	border-radius: 5px;
+	background: #0377d9;
+}
+
+.body_title_left>div {
+	float: left;
+}
+
+.body_title_left .rq {
+	font-size: 12px;
+	margin-left: 30px;
+}
+
+.body_title_left .rq a {
+	color: red;
+}
+.body_title_right input,
+select {
+	width: 150px;
+	height: 21px;
+}
+.body_title_right select{
+	margin-left: 20px;
+} 
+.body_title_right input {
+	caret-color: red;
+}
+
+.body_title_right .search {
+	width: 30px;
+	height: 21px;	
+	line-height: 20px;
+	text-align: center;
+	background: #ABABAB;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: 10%;
+	border-top: 1px solid #9c9c9c;
+	border-right: 1px solid #9c9c9c;
+	border-bottom: 1px solid #9c9c9c;
+	box-sizing: border-box;
+	margin-left: -1px;
+}
+
+.body_title_right .search img {
+	width: 16px;
+	margin-top: 2px;
+}
+
+.body_content {
+	font-size: 14px;
+}
+
+.body_content .zymc {
+	width: 100%;
+	height: 230px;
+	padding: 15px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #cccccc;
+}
+
+.body_content .zymc .mc,
+.jj,
+.jkzb,
+.ys,
+.ls {
+	width: 20%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	border-right: 1px solid #cccccc;
+}
+
+.body_content .zymc .mc img {
+	margin-top: 10px;
+}
+
+.body_content .zymc .mc p {
+	color: #0377d9;
+}
+
+.body_content .zymc .mc p {
+	margin-top: 10px;
+}
+
+.body_content .zymc .mc a {
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+.body_content .zymc .mc button {
+	width: 80px;
+	height: 30px;
+	display: block;
+	color: white;
+	margin: 10px auto;
+	background: #0377d9;
+	border-radius: 5px;
+}
+
+.body_content .zymc .jj li {
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	text-align: left;
+	font-size: 12px;
+}
+
+.body_content .zymc .jj li a {
+	font-size: 14px;
+	font-weight: bolder;
+	overflow: hidden;
+}
+
+.zyxx {
+	width: 100%;
+	height: 300px;
+}
+
+.zyxx_left,
+.zyxx_right {
+	width: 50%;
+	height: 300px;
+	box-sizing: border-box;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.zyxx_left {
+	border-right: 1px solid #cccccc;
+}
+
+.zyxx_right table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.zyxx_right table tr {
+	height: 30px;
+}
+
+.zyxx_right table tr:first-child {
+	background: #0377d9;
+	color: white;
+}
+
+.zyxx_right table tr td {
+	text-align: center;
+	border: 1px solid #c6c6c6;
+}
+
+.ss {
+	width: 100%;
+	height: 170px;
+	position: relative;
+	border-bottom: 1px solid #c6c6c6;
+	overflow: hidden;
+	padding: 0 0 10px 0;
+	box-sizing: border-box;
+}
+
+.ss ul li {
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	border: 1px solid #c6c6c6;
+	float: left;
+	margin-left: 12px;
+	margin-top: 10px;
+	border-radius: 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.ss ul li a {
+	display: block;
+}
+
+.ss ul li a:first-child {
+	font-size: 16px;
+	margin-top: 10px;
+	color: #0377d9;
+	font-weight: bold;
+}
+
+.ss ul li a:last-child {
+	font-size: 12px;
+	margin-top: 5px;
+	color: #000000;
+}
+
+.zk {
+	width: 80px;
+	background: white;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	position: relative;
+	top: -1px;
+	left: 50%;
+	margin-left: -40px;
+	border-bottom: 1px solid #c6c6c6;
+	border-left: 1px solid #c6c6c6;
+	border-right: 1px solid #c6c6c6;
+	border-radius: 0 0 10px 10px;
+	z-index: 100;
+}
