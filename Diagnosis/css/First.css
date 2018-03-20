@@ -93,164 +93,162 @@ select {
 	width: 16px;
 	margin-top: 2px;
 }
-
-.body_content {
+.body_content_top{
+	width: 100%;
+	position: relative;
+	height:auto;
+}
+.jcxx{
+	width: 220px;
+	height: 300px;
+	border-right: 1px solid #dadada;
+	border-bottom: 1px solid #dadada;
+	border-left: 1px solid #dadada;
+	box-sizing: border-box;
+}
+.jcxx_title{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #0896e8;
+	color: white;
+}
+.jcxx_content{
+	width: 100%;
+	height: 270px;
+	text-align: center;
+	padding: 20px 0;
+	box-sizing: border-box;
+}
+.content ul li{
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+}
+.content ul li a{
+	font-weight: bold;
 	font-size: 14px;
 }
-
-.body_content .zymc {
-	width: 100%;
-	height: 230px;
-	padding: 15px;
-	box-sizing: border-box;
-	border-bottom: 1px solid #cccccc;
-}
-
-.body_content .zymc .mc,
-.jj,
-.jkzb,
-.ys,
-.ls {
-	width: 20%;
-	height: 100%;
-	padding: 10px;
-	box-sizing: border-box;
-	text-align: center;
-	border-right: 1px solid #cccccc;
-}
-
-.body_content .zymc .mc img {
-	margin-top: 10px;
-}
-
-.body_content .zymc .mc p {
-	color: #0377d9;
-}
-
-.body_content .zymc .mc p {
-	margin-top: 10px;
-}
-
-.body_content .zymc .mc a {
+.content ul li span{
 	font-size: 12px;
-	margin-top: 10px;
 }
-
-.body_content .zymc .mc button {
+.db{
 	width: 80px;
 	height: 30px;
-	display: block;
-	color: white;
-	margin: 10px auto;
-	background: #0377d9;
-	border-radius: 5px;
-}
-
-.body_content .zymc .jj li {
-	width: 100%;
-	height: 35px;
-	line-height: 35px;
-	text-align: left;
-	font-size: 12px;
-}
-
-.body_content .zymc .jj li a {
-	font-size: 14px;
-	font-weight: bolder;
-	overflow: hidden;
-}
-
-.zyxx {
-	width: 100%;
-	height: 300px;
-}
-
-.zyxx_left,
-.zyxx_right {
-	width: 50%;
-	height: 300px;
-	box-sizing: border-box;
-	padding: 20px;
-	box-sizing: border-box;
-}
-
-.zyxx_left {
-	border-right: 1px solid #cccccc;
-}
-
-.zyxx_right table {
-	width: 100%;
-	border-collapse: collapse;
-}
-
-.zyxx_right table tr {
-	height: 30px;
-}
-
-.zyxx_right table tr:first-child {
-	background: #0377d9;
-	color: white;
-}
-
-.zyxx_right table tr td {
+	line-height: 30px;
 	text-align: center;
-	border: 1px solid #c6c6c6;
+	background: #0896e8;
+	color: white;
+	margin:15px auto;
+	border-radius: 10px;
 }
-
-.ss {
+.body_content_right{
+	width: 720px;
+	height:auto;
+}
+.yls{
 	width: 100%;
-	height: 170px;
-	position: relative;
-	border-bottom: 1px solid #c6c6c6;
-	overflow: hidden;
-	padding: 0 0 10px 0;
-	box-sizing: border-box;
+	height: 180px;
 }
-
-.ss ul li {
+.zb{
+	width: 100%;
+	height: 120px;
+	position: relative;
+	padding: 18px 35px;
+	box-sizing: border-box;
+	border: 1px solid #dadada;
+	overflow: hidden;
+}
+.zb ul li{
 	width: 70px;
 	height: 70px;
-	text-align: center;
-	border: 1px solid #c6c6c6;
-	float: left;
-	margin-left: 12px;
-	margin-top: 10px;
 	border-radius: 5px;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
+	text-align: center;
+	border: 1px solid #dadada;
+	margin: 10px;
 }
-
-.ss ul li a {
-	display: block;
-}
-
-.ss ul li a:first-child {
-	font-size: 16px;
+.zb ul li p{
 	margin-top: 10px;
-	color: #0377d9;
-	font-weight: bold;
 }
-
-.ss ul li a:last-child {
+.zb ul li p:first-child{
+	color: #0896e8;
+}
+.zb ul li p:last-child{
 	font-size: 12px;
-	margin-top: 5px;
-	color: #000000;
 }
-
-.zk {
-	width: 80px;
-	background: white;
+.yls .yls_con{
+	width: 240px;
+	height: 180px;
+	border-right: 1px solid #dadada;
+	border-bottom: 1px solid #dadada;
+	box-sizing: border-box;
+	display: inline-block;
+}
+.yls .yls_con .top{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #0896e8;
+	color: white;
+}
+.yls .yls_con .bot{
+	width: 100%;
+	height: 150px;
+}
+.zk{
+	width: 100px;
 	height: 25px;
 	line-height: 25px;
 	text-align: center;
-	position: relative;
-	top: -1px;
-	left: 50%;
-	margin-left: -40px;
-	border-bottom: 1px solid #c6c6c6;
-	border-left: 1px solid #c6c6c6;
-	border-right: 1px solid #c6c6c6;
-	border-radius: 0 0 10px 10px;
+	border-right: 1px solid #dadada;
+	border-bottom: 1px solid #dadada;
+	border-left: 1px solid #dadada;
+	position: absolute;
+	left:50%;
+	margin-left: 50px;
+	border-radius: 0 0 5px 5px;
+	box-sizing: content-box;
 	z-index: 100;
+}
+.body_content_bot{
+	width: 940px;
+	height: 400px;
+	margin-top: 50px;
+	border: 1px solid #dadada;
+}
+.body_content_bot .zb_two{
+	width: 100%;
+	height: 200px;
+	background: salmon;
+}
+.wd{
+	width: 50%;
+	height: 400px;
+	padding: 15px;
+	box-sizing: border-box;
+	border-right: 1px solid #dadada;
+}
+.wd table {
+	width: 100%;
+	border-collapse:collapse;
+}
+.wd table tr:first-child{
+	background: #0377d9;
+	color: white;
+}
+.wd table tr{
+	height: 30px;
+}
+.wd table tr td{
+	border: 1px solid #c6c6c6;
+	
+	text-align: center;
+}
+.ldt{
+	width: 50%;
+	height: 400px;
+	text-align: center;
+	line-height: 400px;
 }

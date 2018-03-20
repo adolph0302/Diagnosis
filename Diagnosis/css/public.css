@@ -104,8 +104,12 @@ a:visited {
 	text-decoration: none;
 	color: #333;
 }
-
-
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
 /*滚动条样式*/
 
 /*#mCSB_2_dragger_vertical,

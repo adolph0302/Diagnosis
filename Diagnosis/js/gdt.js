@@ -1,4 +1,4 @@
- $('.body_content').niceScroll({
+ $('.gd').niceScroll({
         cursorcolor: "#575757",//滚动条的颜色
         cursoropacitymax: 1, //滚动条的透明度，从0-1
         touchbehavior: false, //使光标拖动滚动像在台式电脑触摸设备

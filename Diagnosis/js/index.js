@@ -42,10 +42,11 @@ $('.turn').click(function() {
 })
 //导航部分
 $('#nav ul li:first-child span').css('width', '100px')
-
+$('#nav ul li:first-child a').css('color', '#ef7906')
 $('#nav ul li').on('click', function() {
 	var index = $(this).index();
 	$(this).siblings().children('span').css('width', '0px');
 	$(this).children('span').css('width', '100px');
-	$('#body>div').css('display', 'none').eq(index).css('display', 'block');
+	$('#nav ul li a').css('color', 'white')
+	$(this).children('a').css('color', '#ef7906');
 })

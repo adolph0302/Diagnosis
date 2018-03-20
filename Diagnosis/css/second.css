@@ -63,10 +63,9 @@
 	text-indent: 1em;
 }
 .body_content .ej_content ul li {
-	width: 233px;
+	width: 25%;
 	height: 100px;
 	border: 1px solid #E2E2E2;
-	margin-left: -1px;
 	padding: 15px 0;
 	box-sizing: border-box;
 	text-align: center;

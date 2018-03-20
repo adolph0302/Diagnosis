@@ -7,6 +7,11 @@
 		<link rel="icon" href="../images/logo_five.png" type="image/x-icon" />
 		<link rel="stylesheet" href="../css/public.css" />
 		<link rel="stylesheet" href="../css/style.css" />
+		<script type="text/javascript">		
+			function selectFrame(url){
+				$('iframe').attr('src',url);
+			}
+		</script>
 	</head>
 
 	<body>
@@ -20,7 +25,7 @@
 		<div id="nav">
 			<nav>
 				<ul>
-					<li>
+					<li onclick="selectFrame('Fourth.html')">
 						<a>标准体系</a>
 						<span></span>
 					</li>
@@ -28,7 +33,7 @@
 						<a>诊断体系</a>
 						<span></span>
 					</li>
-					<li>
+					<li onclick="selectFrame('First.html')">
 						<a>数字画像</a>
 						<span></span>
 					</li>
@@ -66,7 +71,7 @@
 				</div>
 				<!--右边内容-->
 				<div class="body_right">
-					<iframe src="First.html" width="100%" height="100%" frameborder="0" scrolling="no">
+					<iframe src="Fourth.html" width="100%" height="100%" frameborder="0" scrolling="no">
 						<a href="First.html">你的浏览器不支持iframe页面嵌套，请点击这里访问页面内容。</a>
 					</iframe>
 					<!--<div class="body_right_title">
@@ -257,7 +262,7 @@
 								</ul>
 							</div>
 							<div class="menu_bot_two">
-								<div class="whjs block">
+								<div class="whjs block gd">
 									<ul>
 										<li>精神文化</li>
 										<li>环境文化</li>
@@ -265,18 +270,18 @@
 										<li>行为文化</li>
 									</ul>
 								</div>
-								<div class="jfgl block">
+								<div class="jfgl block gd">
 									<ul>
 										<li>经费收入</li>
 										<li>经费支出</li>
 									</ul>
 								</div>
-								<div class="shfw block">
+								<div class="shfw block gd">
 									<ul>
 										<li>生活服务满意度</li>
 									</ul>
 								</div>
-								<div class="hzyjl block">
+								<div class="hzyjl block gd">
 									<ul>
 										<li>国内外合作</li>
 										<li>对外交流</li>
@@ -288,13 +293,13 @@
 										<li>办学条件</li>
 										<li>专业概况</li </ul>
 								</div>
-								<div class="xsgk block">
+								<div class="xsgk block gd">
 									<ul>
 										<li>全校概况</li>
 										<li>各学院概况</li>
 									</ul>
 								</div>
-								<div class="szgk block">
+								<div class="szgk block gd">
 									<ul>
 										<li>生师比例</li>
 										<li>教职工数量</li>
@@ -306,7 +311,7 @@
 										<li>任职年限</li>
 									</ul>
 								</div>
-								<div class="zsqk block">
+								<div class="zsqk block gd">
 									<ul>
 										<li>招生人数</li>
 										<li>新生报到</li>
@@ -315,7 +320,7 @@
 										<li>招生类型</li>
 									</ul>
 								</div>
-								<div class="jyzl block">
+								<div class="jyzl block gd">
 									<ul>
 
 										<li>初次就业率</li>
@@ -327,7 +332,7 @@
 										<li>自主创业</li>
 									</ul>
 								</div>
-								<div class="bxcg block">
+								<div class="bxcg block  gd">
 									<ul>
 										<li>获奖情况</li>
 										<li>教学获奖</li>
@@ -346,7 +351,7 @@
 										<li>职业鉴定</li>
 									</ul>
 								</div>
-								<div class="zlgh block">
+								<div class="zlgh block gd">
 									<ul>
 										<li>战略管理</li>
 										<li>目标管理</li>
@@ -368,7 +373,7 @@
 							</div>
 						</div>
 						<div class="menu_bot">
-							<div class="menu_bot_one">
+							<div class="menu_bot_one gd">
 								<ul>
 									<li>
 										<a>师资队伍</a><span>16</span></li>
@@ -797,16 +802,10 @@
 							<div class="turn">
 								<img src="../images/返回 (1).png">
 							</div>
-						</div>33
+						</div>
 					</div>
 				</div>
 			</div>
-			<!--诊断体系-->
-			<div class="zdtx">诊断体系</div>
-			<!--数字画像-->
-			<div class="sztx">数字画像</div>
-			<!--数据中心-->
-			<div class="sjzx">数据中心</div>
 		</div>
 	</body>
 	<script type="text/javascript" src="../js/jquery-1.11.0.js"></script>
